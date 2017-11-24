@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Votos</title>
+    <link rel="stylesheet" type="text/css" href="css/css.css">
+    <link rel="stylesheet" type="text/css" href="css/model.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/js.js"></script>
+    <script src="js/modal.js"></script>
+</head>
+<body onLoad="init(); initModal()">
+<div id="fondo"></div>
+<h1 class="title">Presupuesto total restante: <span id="presupuesto"></span> €</h1>
+<div class="selector">
+
+
+
+
+    <div class="w3-content w3-display-container propuestaDiv">
+        <h2 class="w3-center tituloPropuesta">Titulo </h2>
+        <span class="w3-center fechaPropuesta lineaProp">Fecha  </span>
+        <span class="tipoPropuesta lineaProp"> Tipo X</span>
+        <span class="descripcionprecioPropuesta"></span><span class="precioPropuesta"></span>
+
+        <div class="codigoPropuesta">Código de la propuesta: <span id="codigoP"></span></div>
+        <div id="propuesta"> rgrehrth</div>
+
+
+    </div>
+
+
+
+</div>
+
+<div class="line"></div>
+<div class="line2"></div>
+
+
+<div class="aceptar">
+    <div class="seleccion">
+        <button class=" w3-black w3-display-left antButton " onclick="plusPropuestas(-1)">&#10094;
+        </button>
+    </div>
+
+    <button id="botonVotar" class=" aceptarButton" onclick="add_carrito()">Votar</button>
+
+    <div class="seleccion siguiente">
+        <button class=" w3-black w3-display-right sigButton " onclick="plusPropuestas(1)">
+        </button>
+    </div>
+</div>
+    <div class="MisVotos"><h3  style="">Mis votos</h3></div>
+
+<div class="lista">
+    <ul>
+        <!--
+        <li>
+          <h3>Headline</h3>
+          <p>Lorem ipsum dolor sit amet...</p>
+            <button class="eliminar">X</button>
+        </li>
+        -->
+
+
+    </ul>
+
+</div>
+<button class="enviar" onclick="comprobarVotacion()" id="enviarVotacion" >Emitir votación</button>
+<!-- The Modal -->
+
+<div id="myModal" class="modal">
+
+
+    <!-- Modal content -->
+    <div class="modal-content">
+        <div class="titleModal">Mis votos</div>
+        <div class="nProyectosVotadosDiv">Número de proyecos votados: <span class="nProyectosVotados">2 proyectos</span></div>
+        <div class="importeTotalDiv">Importe total de la inversión: <span class="importeTotal">307.000 </span></div>
+        <div class="line3"></div>
+
+        <div class="textModal">
+            <div class="text">Para modificar su elección pusle este botón:</div>
+            <div class="text recogerText">Para confirmar su elección pusle este botón y recoja su tarjeta:</div>
+            <button class="close" id ="volver">Cancelar</button>
+            <button class="confirm" id="confirmar">Confirmar votación</button>
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
