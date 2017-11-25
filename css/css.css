@@ -278,7 +278,7 @@ p {
     width: 30%;
     height: 65%;
     float: right;
-    margin-top:  1%;
+    margin-top:  -1%;
     margin-left: 80%;
     overflow: scroll;
     /*border-style: solid;*/
