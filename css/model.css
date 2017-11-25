@@ -16,6 +16,7 @@
 
 /* Modal Content */
 .modal-content {
+
     background-color: #fefefe;
     margin: auto;
     padding: 20px;
@@ -56,10 +57,10 @@ div{
 
 .line3{
     margin-left: 4%;
-    border-bottom-style: ridge;
-    border-width: thin medium thick 1px;
-    height: 1px;
     width:95%;
+    background: grey;
+    height: 1px;
+    width:90%;
 }
 
 .textModal{

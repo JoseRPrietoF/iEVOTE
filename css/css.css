@@ -203,20 +203,20 @@ p {
 
 
 .fechaPropuesta,   .lugar{
-    margin-top: 0.2%;
+    margin-top: 0.4%;
     /*font: 200 16px Georgia, Times New Roman, serif;*/
     font-family: Oxygen;
 }
 
 .precioPropuesta{
-    /*margin-left: 4%;*/
+    margin-right: 4%;
     margin-bottom: 50%;
     font-size: 22px;
     color: #c1620b; /* naranja */
     font-weight: bold;
 }
 
-.punto{
+.punto, .puntoizq{
     width: auto;
     height: auto;
     float: left;
@@ -227,6 +227,11 @@ p {
     line-height: 3%;
     vertical-align: middle;
 }
+
+.puntoizq{
+    margin-left: 4%;
+}
+
 /*Propuesta*/
 .tituloPropuesta{
     margin-left: 0%;
@@ -418,6 +423,6 @@ button {
     /*border-style: solid;*/
     background: grey;
     height: 85%;
-    width: 0.05%;
+    width: 0.1%;
 
 }
