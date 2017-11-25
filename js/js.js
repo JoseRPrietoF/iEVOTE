@@ -1,20 +1,29 @@
 var propuestas = [
     {
-        "titulo": "Referendum" ,
-        "text": "Propuesta numero 1Propuesta numero 1Propuesta numero 1Propuesta numero 1Propuesta numero 1Propuesta numero 1Propuesta numero 1Propuesta numero 1Propuesta numero 1Propuesta numero 1Propuesta numero 1Propuesta numero 1Propuesta numero 1Propuesta numero 1Propuesta numero 1Propuesta numero 1Propuesta numero 1Propuesta numero 1Propuesta numero 1Propuesta numero 1Propuesta numero 1Propuesta numero 1Propuesta numero 1Propuesta numero 1Propuesta numero 1Propuesta numero 1Propuesta numero 1Propuesta numero 1Propuesta numero 1Propuesta numero 1Propuesta numero 1Propuesta numero 1Propuesta numero 1",
+        "titulo": "Mejora de la acera de Botánico Cavanilles \n" +
+        "(puerta de Viveros a Blasco Ibañez)" ,
+        "text": "<p>Es proposa millorar l’eficiència energètica de l’enllumenat en diferents barris de la ciutat que permeta un major estalvi econòmic, la renovació del mobiliari així com una millora en la instal·lació, amb una llum més agradable i la reducció d’emissions</p>",
         "id": 1,
         "fecha": "11/11/2017",
-        "precio": 200,
+        "precio": 200000,
         "tipo": "Ciudadania",
+        "lugar": "Toda la ciudad",
         "votado": false
     },
     {
-        "titulo": "Titulo rbtntrnyt  ny5n5n5656jlr68lr87l 7ik67 " ,
-        "text": "Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2Propuesta numero 2",
+        "titulo": "Mejora de la acera de Botánico Cavanilles \n" +
+        "(puerta de Viveros a Blasco Ibañez)" ,
+        "text": "<p>El objectiu del projecte és la millora de la connectivitat dels pobles de València mitjançant:</p>\n" +
+        "\n" +
+        "<ul>\n" +
+        "\t<li>Instal·lació de Wifi públic a l’interior dels 21 edificis municipals dels 15 pobles de València</li>\n" +
+        "\t<li>Instal·lació de Wifi públic exterior </li>\n" +
+        "</ul>",
         "id": 2,
         "fecha": "16/11/2017",
-        "precio": 500,
+        "precio": 500785,
         "tipo": "Ciudadania",
+        "lugar": "Toda la ciudad",
         "votado": false
     },
     {
@@ -22,8 +31,9 @@ var propuestas = [
         "text": "Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3",
         "id": 3,
         "fecha": "32/13/2017",
-        "precio": 200,
+        "precio": 2008737,
         "tipo": "Ciudadania",
+        "lugar": "Toda la ciudad",
         "votado": false
     },
     {
@@ -31,16 +41,18 @@ var propuestas = [
         "text": "Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3",
         "id": 4,
         "fecha": "32/13/2017",
-        "precio": 200,
+        "precio": 2033830,
         "tipo": "Ciudadania",
+        "lugar": "Toda la ciudad",
         "votado": false
     },{
         "titulo": "Propuesta La siguiente es un Spoiler de Mr Robot " ,
         "text": "Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3",
         "id": 5,
         "fecha": "32/13/2017",
-        "precio": 200,
+        "precio": 203450,
         "tipo": "Ciudadania",
+        "lugar": "Toda la ciudad",
         "votado": false
     }
     ,{
@@ -48,17 +60,19 @@ var propuestas = [
         "text": "Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3",
         "id": 6,
         "fecha": "32/13/2017",
-        "precio": 200,
+        "precio": 206880,
         "tipo": "Ciudadania",
-        "votado": false
+        "votado": false,
+        "lugar": "Toda la ciudad",
     }
     ,{
         "titulo": "Propuesta La siguiente es un Spoiler de Mr Robot " ,
         "text": "Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3",
         "id": 7,
         "fecha": "32/13/2017",
-        "precio": 200,
+        "precio": 2028860,
         "tipo": "Ciudadania",
+        "lugar": "Toda la ciudad",
         "votado": false
     }
     ,{
@@ -66,8 +80,9 @@ var propuestas = [
         "text": "Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3Propuesta numero 3",
         "id": 8,
         "fecha": "32/13/2017",
-        "precio": 200,
+        "precio": 20280,
         "tipo": "Ciudadania",
+        "lugar": "Toda la ciudad",
         "votado": false
     }
 
@@ -76,11 +91,12 @@ var propuestas = [
 
 var propuestaIndex = 0;
 var id = null
-var presupuestoRestante = 3000
+var presupuestoRestante = 3000000
 
 
 function plusPropuestas(n) {
-  showPropuestas(propuestaIndex += n);
+    propuestaIndex += n;
+    showPropuestas();
 }
 
 function print(x){
@@ -89,7 +105,7 @@ function print(x){
 
 function show_presupuesto(){
     span_pres = $('#presupuesto')
-    span_pres.html(presupuestoRestante)
+    span_pres.html(presupuestoRestante.toLocaleString() + " €")
 }
 
 function add_carrito(){
@@ -124,7 +140,7 @@ function reload_lista(){
                 '      <div class="item">' +
                 // '<h4>Presupuesto ' + propuesta.id + '</h4>\n' +
                 '      <p class="listaCarrito">' + propuesta.titulo.substr(0, 100) + '</p>' +
-                '      <h5>' + propuesta.precio + ' €</h5> ' +
+                '      <h5>' + propuesta.precio.toLocaleString()  + ' €</h5> ' +
                 '</div>' +
                 '<div class=\"eliminar\" id =\" ' + propuesta.id + '\" onclick=\"eliminar(' + propuesta.id + ')\"></div></li>'
             )
@@ -151,22 +167,19 @@ function eliminar(ident){
     reload()
 }
 
-function showPropuestas(n) {
+function showPropuestas() {
 
     // var x = document.getElementsByClassName("mySlides");
     x = $('#propuesta')
 
-    if (n >= propuestas.length) {
+    if (propuestaIndex >= propuestas.length) {
         propuestaIndex = 0
     }
-    else if (n < 1) {
+    else if (propuestaIndex < 0) {
         propuestaIndex = propuestas.length - 1
     }
-    else {
-        propuestaIndex = n
-    }
-
     // print(propuestaIndex)
+    // print(propuestas[propuestaIndex])
     descripcion = propuestas[propuestaIndex]["text"]
     titulo = propuestas[propuestaIndex]["titulo"]
     fecha = propuestas[propuestaIndex]["fecha"]
@@ -176,7 +189,7 @@ function showPropuestas(n) {
     x.html(descripcion);
     $('.tipoPropuesta').html(tipo);
     $('.fechaPropuesta').html(fecha);
-    $('.precioPropuesta').html(precio+" €");
+    $('.precioPropuesta').html(precio.toLocaleString() +" €");
     $('.tituloPropuesta').html(titulo);
     $('#codigoP').html("VLC-2017-"+id);
     if(propuestas[propuestaIndex].votado){
@@ -214,14 +227,14 @@ function comprobarVotacion(){
     fondo.style.display = "block";
     [n, total] = recuento()
     $('.nProyectosVotados').html(n+" proyectos");
-    $('.importeTotal').html(total+" €");
+    $('.importeTotal').html(total.toLocaleString() +" €");
 
 }
 
 function reload(){
     // print("reload")
     show_presupuesto();
-    plusPropuestas(1);
+    showPropuestas();
     reload_lista();
 }
 
@@ -298,6 +311,8 @@ function disable(){
 
 function init(){
     print("Init")
+    propuestaIndex = 0
+    // print(propuestas[0])
     reload();
     btn = document.getElementById("enviarVotacion");
     btn.onclick = function() {

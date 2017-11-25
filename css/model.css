@@ -50,7 +50,7 @@ div{
 
 .nProyectosVotados, .importeTotal{
 
-    color: mediumseagreen;
+    color: #98bf11;
     font-size: larger;
 }
 
@@ -80,7 +80,7 @@ div{
     margin-left: 3%;
 }
 .textModal button{
-    width: 45%;
+    width: 40%;
     float: left;
     font-size: 18px;
     font-weight: bold;
@@ -97,7 +97,7 @@ div{
 }
 
 .confirm{
-    margin-left: 8%;
+    margin-left: 10%;
 }
 
 .close:hover,

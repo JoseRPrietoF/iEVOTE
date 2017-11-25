@@ -11,7 +11,7 @@
 </head>
 <body onLoad="init(); initModal()">
 <div id="fondo"></div>
-<h1 class="title">Presupuesto total restante: <span id="presupuesto"></span> €</h1>
+<h1 class="title">Presupuesto total restante:   <span id="presupuesto"></span> </h1>
 <div class="selector">
 
 
@@ -19,12 +19,19 @@
 
     <div class="w3-content w3-display-container propuestaDiv">
         <h2 class="w3-center tituloPropuesta">Titulo </h2>
-        <span class="w3-center fechaPropuesta lineaProp">Fecha  </span>
-        <span class="tipoPropuesta lineaProp"> Tipo X</span>
-        <span class="descripcionprecioPropuesta"></span><span class="precioPropuesta"></span>
+        <div class="lineaProp">
+            <span class="w3-center fechaPropuesta ">Fecha  </span>
+            <div class="punto">.</div>
+            <span class="tipoPropuesta "> Tipo X</span>
+            <div class="punto">.</div>
+            <span class="lugar">Toda la ciudad</span>
+            <div class="punto">.</div>
+            <span class="precioPropuesta"></span>
 
-        <div class="codigoPropuesta">Código de la propuesta: <span id="codigoP"></span></div>
-        <div id="propuesta"> rgrehrth</div>
+            <div class="codigoPropuesta">Código de la propuesta: <span id="codigoP"></span></div>
+
+        </div>
+        <div id="propuesta" class="propuesta"> rgrehrth</div>
 
 
     </div>

@@ -10,7 +10,7 @@ body, html {
     overflow: hidden;
 }
 
-html, body, h2, h3, h4, h5, h6, p, li, a {
+html, body, h2, h3, h4, h5, h6, a {
 	font-family: 'Oxygen', helvetica, arial, sans-serif!important;
 }
 
@@ -33,12 +33,16 @@ h2 strong {
   box-sizing: border-box;
 }
 
+p {
+    font-family: Helvetica;
+    /*font-size:  14px;*/
+}
 
 
 /*Titulo*/
 
 .title{
-    margin-left: 5%;
+    margin-left: 4.3%;
     margin-top: 1%;
 
 }
@@ -96,13 +100,6 @@ h2 strong {
 
 }
 
-#propuesta{
-    overflow: auto;
-    height:70%;
-    width:100%;
-
-}
-
 .propuestaDiv{
     width: 90%;
     height: 95%;
@@ -111,37 +108,64 @@ h2 strong {
     overflow: hidden;
 }
 
+
+
 .codigoPropuesta{
+    font-family: Helvetica;
     width: 80%;
     height: 6%;
     /*border-style: solid;*/
-    margin: 0% 0 0 0;
+    margin: 2% 0 0 0;
     display:block;
-    font-size: 12px;
     float:left;
 
 }
 #codigoP{
-    font-weight: 900;
+    font-weight: bold;
 }
 
 #propuesta{
     width: 100%;
 
-    margin-top: 1%;
+    margin-top: 8%;
+    margin-left: 0.2%;
     overflow: scroll;
 
     text-align: match-parent;
+    overflow: auto;
+
+    height:70%;
+    width:95%;
+
+
 }
+
+.codigoPropuesta, #codigoP, #propuesta{
+    font-family: Helvetica;
+    font-size:  16px;
+}
+
+
+#propuesta p{
+    paddng: 1% 0 1% 0;
+}
+
+#propuesta li{
+
+    padding: 1%;
+}
+
 
 ::-webkit-scrollbar {
     display: block;
 }
 
 #presupuesto{
+    margin-left: 2%;
+    font-family: Oxygen;
     font-weight: bold ;
-    font-size: 35px;
-    color: #D6702B; /* naranja */
+    font-size: 26px;
+    color: #c1620b; /* naranja */
 }
 
 
@@ -164,56 +188,83 @@ h2 strong {
     font-weight: 500;
     font-size: medium;
     float: left;
-    margin-left: 20%;
+    margin-left: 21.5%;
 
+}
+
+
+
+.fechaPropuesta,   .lugar{
+    margin-top: 0.2%;
+    /*font: 200 16px Georgia, Times New Roman, serif;*/
+    font-family: Oxygen;
 }
 
 .precioPropuesta{
-
-    font-weight: 900 ;
-    font-size: 25px;
-    color: #D6702B; /* naranja */
-}
-.descripcionprecioPropuesta{
-    padding-left: 7%;
-    color:gray;
-    overflow: scroll;
+    /*margin-left: 4%;*/
+    margin-bottom: 50%;
+    font-size: 22px;
+    color: #c1620b; /* naranja */
+    font-weight: bold;
 }
 
+.punto{
+    width: auto;
+    height: auto;
+    float: left;
+    margin: 0 2% 0 2%;
+    font-size: 45px;
+    font-family: Helvetica;
+    color: #dee0e3;
+    line-height: 3%;
+    vertical-align: middle;
+}
 /*Propuesta*/
 .tituloPropuesta{
     margin-left: 0%;
-    color: #D6702B; /* naranja */
+    color: #c1620b; /* naranja */
     overflow: auto;
     width: 90%;
+    font-size: 26px;
+    font-family: Oxygen;
+    font-weight: bold;
 
 }
 
 .lineaProp{
-    margin: 2% 1% 2% 1%;
+    margin: 2% 1% 2% 0%;
+
 }
 .fechaPropuesta{
     color:grey;
-    font: 200 12px/1.5 Georgia, Times New Roman, serif;
+
     display:block;
     width: 10%;
     float:left
 
 }
+
+.lugar{
+    color:grey;
+    display:block;
+    /*margin-left: 4%;*/
+    float:left
+}
+
 .tipoPropuesta{
-    margin-left: 5%;
+    /*margin-left: 5%;*/
     font-size:14px;
     color: #a64423;
     border: 1px solid;
     border-radius: 5px;
-    background-color: seagreen;
+    background-color: #98bf11;
     color: white;
 
     display:block;
     font-size: small;
     float:left;
     width: auto;
-    padding: 0.4% 2%;
+    padding: 0.9% 2.2%;
 }
 
 /*<!-- Lista pare derecha  -->*/
@@ -253,32 +304,30 @@ h2 strong {
     padding-top:20%;
     height: 40px;
     width: 10%;
-    margin-top: 5%;
+    margin-top: 15%;
 }
 
-h3 {
-    font: bold 25px/1.5 Helvetica, Verdana, sans-serif;
-}
 
 
 .MisVotos{
+    margin-top: 1%;
+    font-family: Oxygen;
+    font-size: 20px;
+    font-weight: bold;
     /*float:left;*/
     height: 7%;
     width: 15%;
     /*z-index: 1;*/
     /*background-color: white;*/
-    margin-left: 75%;
-    color: green;
+    margin-left: 71%;
+    color: #98bf11;
 
 
-}
-
-
-.MisVotos {
 
 }
 
-ul {
+
+.lista ul {
     list-style-type: none;
     width: 100%;
     /*margin-top: 10%;*/
@@ -287,28 +336,30 @@ ul {
 
 
 
-li p {
+.lista  li p {
 }
 
-li {
+.lista li {
     width: 90%;
     padding: 10px;
     overflow: auto;
 }
 
 .listaCarrito {
+
     width: 100%;
     list-style: disc;
-    overflow: visible;
+    overflow: hidden;
 }
+
 
 .enviar {
     margin: 0% 0% 0% 75%;
     width: 20%;
     font-size: medium;
-    height: 7%;
+    height: 8%;
     background-color: dimgrey;
-    border-radius: 0.5em;
+
 
 }
 
@@ -322,14 +373,16 @@ li {
 /*Copia CSS custom.scss pasado por Diego*/
 
 
-p {
+.item p {
     color: #333;
-    font: 200 12px/1.5 Georgia, Times New Roman, serif;
+    font-size: 14px;
+    font-family: Helvetica;
 }
 
 button {
     margin: 0;
-	border-radius: 4px;
+    border-radius: 0.5em;
+	/*border-radius: 4px;*/
     color:white;
     background: #D6702B;;
 }
@@ -347,20 +400,24 @@ button {
 }
 
 /*Lineas*/
+
+
+
 .line{
     margin-left: 4%;
-    border-bottom-style: ridge;
-    border-width: thin medium thick 1px;
-    height: 1px;
+    background: grey;
+    height: 0.2%;
     width:90%;
 }
 
 .line2{
     position: absolute;
     margin-left: 68%;
-    border-style: ridge;
-    border-width: thin medium thick 1px;
+    /*border-style: ridge;*/
+    /*border-width: thin medium thick 1px;*/
     /*border-style: solid;*/
+    background: grey;
     height: 85%;
-    width:1px;
+    width: 0.05%;
+
 }
